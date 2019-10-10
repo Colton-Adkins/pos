@@ -1,0 +1,26 @@
+#container {
+     width: 100%;
+     margin: 0 auto;
+    min-height: 20vw;
+min-width: 40vw;
+background: #6bba70;
+background: -moz-linear-gradient(45deg, #6bba70 0%, #6bba70 100%);
+background: -webkit-linear-gradient(45deg, #6bba70 0%,#6bba70 100%);
+background: linear-gradient(45deg, #6bba70 0%,#6bba70 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=1 );
+ position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+#logo {
+  border: solid black 2px;
+    float: left;
+     min-width: 250px;
+     min-height: 250px;
+}
+#logopic {
+    background-image: cover;
+}
