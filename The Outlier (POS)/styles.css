@@ -1,0 +1,46 @@
+/*
+ *Point Of Sale style sheet
+ *Filename: styles.css
+ *
+ *Date: September 13, 2019
+ *Author: Travis Andre
+ */
+
+/* reset styles */
+html
+{
+    font-size: 14px;
+}
+a
+{
+    text-decoration: none;
+}
+header, footer, article, div, h1, h2, p
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #B1B0B0;
+}
+
+/* ------ Login Page Style ------ */
+
+/* headers */
+h1
+{
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Bungee Shade';
+    color: #FF0000;
+}
+
+/* misc */
+#logo
+{
+    width: 5%;
+    margin-left: 665px;
+    margin-top: 175px;
+}
