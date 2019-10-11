@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*
  * Point of Sale interface software style sheet
  * Filename: mystyle.css
@@ -8,16 +9,18 @@
  * Additional Javascript by Christian Caldwell
  * Fuck Niggers!!!!!!
  */
+=======
+body * {
+    margin: 5px;
+}
+
+>>>>>>> Stashed changes
 #container {
      width: 100%;
      margin: 0 auto;
     min-height: 20vw;
 min-width: 40vw;
-background: #6bba70;
-background: -moz-linear-gradient(45deg, #6bba70 0%, #6bba70 100%);
-background: -webkit-linear-gradient(45deg, #6bba70 0%,#6bba70 100%);
-background: linear-gradient(45deg, #6bba70 0%,#6bba70 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=1 );
+ background-color: #B1B0B0;
  position: absolute;
    top: 0;
    right: 0;
@@ -26,11 +29,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', end
 }
 
 #logo {
-  border: solid black 2px;
     float: left;
-     min-width: 250px;
-     min-height: 250px;
+     min-width: 150px;
+     min-height: 150px;
+     max-height: 150px;
+     max-width: 150px;
+     display:inline-block;
 }
 #logopic {
     background-image: cover;
+      min-width: 150px;
+     min-height: 150px;
+     max-height: 150px;
+     max-width: 150px;
+     display:inline-block;
+}
+#header {
+       font-family: 'Bungee Shade';
+     color: red;
+     font-size: 3.5em;
 }
