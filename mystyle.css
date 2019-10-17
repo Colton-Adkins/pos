@@ -75,8 +75,88 @@ p {
     font-size: 1.1em;
 }
 
-#product-content {
-    border: 2px solid black;
+#product-header {
     position: absolute;
-bottom: 0px;
+    top: 0px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.btn {
+    background: #f45;
+    border: black solid 1px;
+    font-size: 1.2em;
+    text-align: center;
+    min-width: 280px;
+    max-width: 280px;
+}
+
+#product-food {
+    top: 70px;
+    width: 100%;
+    position: absolute;
+    table-layout: fixed;
+    text-align: center;
+}
+
+#product-drinks {
+    top: 70px;
+    width: 100%;
+    position: absolute;
+    table-layout: fixed;
+    text-align: center;
+}
+
+#product-sides {
+    top: 70px;
+    width: 100%;
+    position: absolute;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.probtns {
+
+    background: #f45;
+    text-align: center;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    top: 200px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Bungee Shade';
+    color: red;
+    font-size: 2.5em;
+}
+
+#total {
+    position: absolute;
+    bottom: 0px;
+    border-top: 2px solid black;
+    margin: 0px;
+    width: 100%;
+    min-height: 50px;
+}
+
+#logout {
+    color: red;
+    font-size: 1em;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#logout a {
+     text-decoration: none;
+    color: black;
 }

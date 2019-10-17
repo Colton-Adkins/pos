@@ -20,29 +20,61 @@
     <script src="main.js"> </script>
 </head>
 
-<body>
+<body onload="setStyle()">
 
-    <div id="container">
-        <div id="header">
-            <div id="logo"><img src="imgs/logo.JPG" alt="logo" id="logopic"></div>
-        </div>
-    </div>
+    
 
     <div id="container">
 
+         
+        
         <div id="header">
             <div id="logo"><img src="imgs/logo.png" alt="logo" id="logopic"></div>
             <div id="heading"><b>Merchant+Aid</b> </div>
         </div>
         <p>A Simple Point-Of-Sale System for your small business.</p>
 
-        <div id="total_box"> </div>
+        
+        <div id="logout"><a href="login.html">Sign Out</a><iframe src="http://free.timeanddate.com/clock/i6ze3myq/n414/tcccc/bo2/tt0/tw1/tm1/ts1/ta1" frameborder="0" width="274" height="20"></iframe> </div>
+        
+        <div id="total_box">
+
+
+            <div id="total">Total: $0.00</div>
+        </div>
 
 
 
         <div id="products">
-            <div id="product-content">Test </div>
+            <div id="product-header">
+                <button onclick="displayFood()" class="btn">Food</button>
+
+                <button onclick="displayDrinks()" class="btn">Drinks</button>
+
+                <button onclick="displaySides()" class="btn">Sides</button>
+            </div>
+
+            <div id="default">
+                <h2>Merchant+Aid Point Of Sale System</h2>
+            </div>
+
+            <div id="product-food">
+                <h1><u>Food</u></h1>
+            </div>
+
+            <div id="product-drinks">
+                <h1><u>Drinks</u></h1>
+
+            </div>
+
+            <div id="product-sides">
+                <h1><u>Sides</u></h1>
+
+            </div>
+
         </div>
 
     </div>
-</body></html>
+</body>
+
+</html>
