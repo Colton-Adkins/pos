@@ -93,6 +93,7 @@ function addItemToTotalBox(itmName, val) {
 function recalculateTotal() {
 
     var total = totalArray.reduce(getTotal);
+    console.log(total);
 
     var fnlTotalStr = "Total: $" + String(parseFloat(Math.round(total * 100) / 100).toFixed(2));
 
